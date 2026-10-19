@@ -1,0 +1,10 @@
+2026-10-19 14:52:29,936 INFO POST /score status=200 latency_ms=27.3 txn_id=T800001 fraud_probability=0.043 decision=approve human_review=False
+2026-10-19 14:52:29,956 INFO POST /score status=200 latency_ms=17.5 txn_id=T800002 fraud_probability=0.9597 decision=hold_for_review human_review=True
+2026-10-19 14:52:29,984 WARNING POST /score status=200 latency_ms=25.8 txn_id=T800003 fraud_probability=0.1765 decision=hold_for_review human_review=True guardrail_override=True
+2026-10-19 14:52:29,988 WARNING POST /score status=400 latency_ms=0.9 txn_id=T800004 reason=input_rejected
+2026-10-19 14:52:29,990 WARNING POST /score status=422 latency_ms=0.6
+2026-10-19 14:52:30,015 INFO POST /case status=200 latency_ms=23.4 txn_id=T900002 fraud_probability=0.9597 decision=hold_for_review human_review=True
+2026-10-19 14:52:30,037 WARNING POST /case status=200 latency_ms=19.9 txn_id=T900005 fraud_probability=0.9597 decision=hold_for_review human_review=True safe_default=True
+2026-10-19 14:52:30,058 ERROR POST /case status=503 latency_ms=19.0 txn_id=T900099 fraud_probability=0.9597 reason=llm_unavailable
+2026-10-19 14:52:30,081 INFO POST /case status=200 latency_ms=20.1 txn_id=T800001 fraud_probability=0.043 decision=approve human_review=False
+2026-10-19 14:52:30,109 INFO POST /case status=200 latency_ms=26.2 txn_id=T800006 fraud_probability=0.9597 decision=hold_for_review human_review=True
